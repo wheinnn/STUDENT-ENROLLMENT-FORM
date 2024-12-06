@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Student Enrollment Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <header class="myHeader">
+          <h1>Student Enrollment Form</h1>
+     </header>
+
+     <section class="myIns">
+          <h1>Instructions:</h1>
+          <ol>
+               <li>Fill in the form fields.</li>
+               <li>Check your interests.</li>
+               <li>Click "Enroll Now" to submit.</li>
+          </ol>
+     </section>
+
+
+     <form action="" class="myForm">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" required>
+  
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+  
+          <label>Sex:</label>
+          <label><input type="radio" name="sex" value="Male" required> Male</label>
+          <label><input type="radio" name="sex" value="Female" required> Female</label>
+  
+          <label for="course">Course Options:</label>
+          <select id="course" name="course" required>
+              <option value="BSIT">BSIT</option>
+              <option value="BSSW">BSSW</option>
+              <option value="BSPA">BSPA</option>
+              <option value="BSBA">BSBA</option>
+              <option value="BFA">BFA</option>
+          </select>
+  
+          <label>Interests:</label>
+          <div class="checkbox-group">
+              <label><input type="checkbox" name="interests" value="Web Development"> Web Development</label>
+              <label><input type="checkbox" name="interests" value="Data Science"> Data Science</label>
+              <label><input type="checkbox" name="interests" value="Networking"> Networking</label>
+              <label><input type="checkbox" name="interests" value="Graphic Design"> Graphic Design</label>
+          </div>
+  
+          <button type="submit">Enroll Now</button>
+     </form>
+
+     <div class="student-list">
+          <h3>Student List</h3>
+          <table>
+               <thead>
+                    <tr>
+                         <th>ID</th>
+                         <th>Name</th>
+                         <th>Email</th>
+                         <th>Age</th>
+                         <th>Sex</th>
+                         <th>Course</th>
+                         <th>Interests</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                         <td>1</td>
+                         <td>Ariana Grande</td>
+                         <td>aripoqs@gmail.com</td>
+                         <td>18</td>
+                         <td>Baccla</td>
+                         <td>BSP</td>
+                         <td>Prostitution</td>
+                    </tr>
+                    <tr>
+                         <td>2</td>
+                         <td>Taylor Swift</td>
+                         <td>inangtaylor@gmail.com</td>
+                         <td>22</td>
+                         <td>Female</td>
+                         <td>BSMA</td>
+                         <td>Writing songs about ex</td>
+                    </tr>
+                    <tr>
+                         <td>3</td>
+                         <td>Ava Max</td>
+                         <td>heavenandhell@gmail.com</td>
+                         <td>19</td>
+                         <td>Female</td>
+                         <td>BSCH</td>
+                         <td>Manira ng buhay ng ibang tao</td>
+                    </tr>
+                    <tr>
+                         <td>4</td>
+                         <td>Kylie Jenner</td>
+                         <td>riseandshine@gmail.com</td>
+                         <td>22</td>
+                         <td>Female</td>
+                         <td>BSMC</td>
+                         <td>Sing "Rise and Shine"</td>
+                    </tr>
+                    <tr>
+                         <td>5</td>
+                         <td>Elvira Pialane</td>
+                         <td>virapoqs@gmail.com</td>
+                         <td>76</td>
+                         <td>Bacclita</td>
+                         <td>ABELS</td>
+                         <td>Maningil ng agang aga</td>
+                    </tr>
+                    <tr>
+                         <td>6</td>
+                         <td>Paul Cortes</td>
+                         <td>paulisinlove@gmail.com</td>
+                         <td>178</td>
+                         <td>Bacclita din</td>
+                         <td>ABELS</td>
+                         <td>Din Lienard Dudas</td>
+                    </tr>
+                    <tr>
+                         <td>7 </td>
+                         <td>Wayne Oira</td>
+                         <td>waynemasarap@gmail.com</td>
+                         <td>16</td>
+                         <td>Another Bacclita</td>
+                         <td>BSPA</td>
+                         <td>Jay Cee Macaraig</td>
+                    </tr>
+               </tbody>
+          </table>
+     </div>
+
+</body>
+</html>
